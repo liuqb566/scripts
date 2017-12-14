@@ -1,4 +1,5 @@
 #! /bin/bash
+# 使用前要修改，一个是要加 RG；另一个可以优化速度，并行多个进程，同时完成后对sam文件进行排序
 
 # directory of sra files
 sra_dir="~/SLAF-seq/data/raw-data/"

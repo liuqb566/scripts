@@ -9,11 +9,12 @@
 #       gossie  2017-12-11   release 1. 
 
 #your raw data
-input="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_终.csv"
-
+#input="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_终.csv"
+input="/home/liuqibao/workspace/research/实验数据/光度值数据整理/浓度及变化汇总.csv"
 
 #output file name
-output="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_3std.txt"
+#output="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_3std.txt"
+output="/home/liuqibao/workspace/research/实验数据/光度值数据整理/浓度及变化汇总_3std.txt"
 
 # what fold of std to trim outlier
 fold=3

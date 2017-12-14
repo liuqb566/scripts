@@ -19,7 +19,7 @@ refgenome="/home/liuqibao/workspace/database/Gossypium_hirsutum_v1.1_replace.fa"
 # bam 文件（绝对路径）
 bam_dir="/home/liuqibao/workspace/snp-calling/gatk-space/bam_RG_sorted"
 # bam 文件列表（绝对路径）
-bam_list="/home/liuqibao/workspace/snp-calling/gatk-space/bam_202_281.txt"
+bam_list="/home/liuqibao/workspace/snp-calling/gatk-space/bam_282_355.txt"
 
 (cat $bam_list ||exit 0)|while read id
 do

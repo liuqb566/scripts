@@ -3,14 +3,19 @@
 #extract p value from gemma results
 #PS:
 #   Because gemma would excute some SNP when there are phenotype missing, Please be carful for the numbers of output files.
+#history:
+#    2017-12-13 v1 gossie
+
+
 
 # output
-output="SPAD_p_value.txt"
+output="浓度_p_value.txt"
 # 表型文件,与构建 .fam 文件时的表型顺序一致。
-phe="/home/liuqibao/workspace/research/chl_数据处理/SPAD数据处理/355材料/GWAS_355/2016_2017_SPAD_汇总_3std.txt"
-
+phe="/home/liuqibao/workspace/research/chl_数据处理/SPAD数据处理/355材料/GWAS_355/浓度及变化汇总_3std.txt"
 # 表型个数
-num=21
+num=48
+
+
 
 #提取前三列，分别为chr,snp,ps
 cut -f2 1.assoc.txt|sed 1d >snp.txt
