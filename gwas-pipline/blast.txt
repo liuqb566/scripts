@@ -1,3 +1,0 @@
-## blast 比对命令
-makeblastdb -in all_species.pep.fasta -dbtype prot
-blastx -query AD-DEGs3624.txt -db all_species.pep.fasta -out 3624yuLSD.txt -evalue 1e-10 -outfmt 6

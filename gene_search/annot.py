@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 
+gene="/home/liuqibao/workspace/考博文件/lqb考博报名/xinong西农/can_gene.txt"
 
-result = open('SPAD_ay4_candidation_gene_ano.txt','w')
- 
- 
-with open('2.txt') as fd:
+with open(gene) as fd:
     for query in fd:
-        with open('NAU_annotation.txt') as fe:
+        with open('/home/liuqibao/workspace/research/database/genome/NAU_annotation.txt') as fe:
             for line in fe:
-                if query.split()[0] == line.split()[0]:
-                    print >> result,line,
+                if query.strip() == line.split()[0]:
+                    print(line)
             

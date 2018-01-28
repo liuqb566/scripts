@@ -8,6 +8,7 @@
 # History:
 #       gossie  2017-12-11   release 1. 
 
+#----------------------------------------------------------------------------------------------------------------------------------------------
 #your raw data
 #input="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_终.csv"
 input="/home/liuqibao/workspace/research/实验数据/光度值数据整理/浓度及变化汇总.csv"
@@ -18,6 +19,7 @@ output="/home/liuqibao/workspace/research/实验数据/光度值数据整理/浓
 
 # what fold of std to trim outlier
 fold=3
+#----------------------------------------------------------------------------------------------------------------------------------------------
 
 import pandas as pd
 
@@ -32,4 +34,4 @@ def winsorize_std(df,a):
 # 注意读入格式
 df=pd.read_csv(input,header=0)
 result=winsorize_std(df,fold)
-result.to_csv(output,index=None,sep='\t')
+result.fillna("NA").to_csv(output,index=None,sep='\t')
