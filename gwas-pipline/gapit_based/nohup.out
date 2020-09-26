@@ -1,0 +1,90 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ geno0.4_maf0.05.log ]
+Analysis started: Tue Dec 26 14:15:48 2017
+
+Options in effect:
+	--noweb
+	--file geno0.4_maf0.05
+	--tab
+	--transpose
+	--recode
+	--out geno0.4_maf0.05
+
+** For gPLINK compatibility, do not use '.' in --out **
+92824 (of 92824) markers to be included from [ geno0.4_maf0.05.map ]
+Warning, found 355 individuals with ambiguous sex codes
+Writing list of these individuals to [ geno0.4_maf0.05.nosex ]
+355 individuals read from [ geno0.4_maf0.05.ped ] 
+0 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+0 cases, 0 controls and 355 missing
+0 males, 0 females, and 355 of unspecified sex
+Before frequency and genotyping pruning, there are 92824 SNPs
+355 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.841566
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 92824 SNPs
+After filtering, 0 cases, 0 controls and 355 missing
+After filtering, 0 males, 0 females, and 355 of unspecified sex
+Writing transposed ped file to [ geno0.4_maf0.05.tped ] 
+Writing family information to [ geno0.4_maf0.05.tfam ] 
+
+Analysis finished: Tue Dec 26 14:16:14 2017
+
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ geno0.4_maf0.05.log ]
+Analysis started: Tue Dec 26 14:38:44 2017
+
+Options in effect:
+	--noweb
+	--file geno0.4_maf0.05
+	--tab
+	--transpose
+	--recode
+	--out geno0.4_maf0.05
+
+** For gPLINK compatibility, do not use '.' in --out **
+92824 (of 92824) markers to be included from [ geno0.4_maf0.05.map ]
+Warning, found 355 individuals with ambiguous sex codes
+Writing list of these individuals to [ geno0.4_maf0.05.nosex ]
+355 individuals read from [ geno0.4_maf0.05.ped ] 
+0 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+0 cases, 0 controls and 355 missing
+0 males, 0 females, and 355 of unspecified sex
+Before frequency and genotyping pruning, there are 92824 SNPs
+355 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.841566
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 92824 SNPs
+After filtering, 0 cases, 0 controls and 355 missing
+After filtering, 0 males, 0 females, and 355 of unspecified sex
+Writing transposed ped file to [ geno0.4_maf0.05.tped ] 
+Writing family information to [ geno0.4_maf0.05.tfam ] 
+
+Analysis finished: Tue Dec 26 14:39:11 2017
+

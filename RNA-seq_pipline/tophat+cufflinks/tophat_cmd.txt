@@ -1,0 +1,2 @@
+## tophat command
+nohup tophat -p 8 -G ./index/Gossypiu_hirsutum_chromsome_v1.0.gff -o outfile ./index/Gossypium_hirsutum_chromsome_v1.0_llb_new SRR_1.fastq SRR_2.fastq

@@ -1,0 +1,4 @@
+cat $1|while read id
+do
+nohup ~/tools/emmax-beta-07Mar2010/emmax -v -d 10 -t ../gwas_imputated -p $id -k ../gwas_imputated.hIBS.kinf -o ${id%%.*} &
+done

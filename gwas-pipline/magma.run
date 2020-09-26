@@ -1,0 +1,6 @@
+#magma 进行gene based GWAS
+cat $1|while read id
+do
+a=${id##*/}
+nohup ~/tools/magma --bfile snp_hardfiltered_355_biallelic_maf5_ms50_chr_imputated --gene-annot magma_annotation.genes.annot --pval $id use=1,3 N=355 --out ${a%%.*} &
+done <$1
