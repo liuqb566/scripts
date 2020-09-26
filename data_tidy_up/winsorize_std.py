@@ -11,10 +11,18 @@
 #----------------------------------------------------------------------------------------------------------------------------------------------
 #your raw data
 #input="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_终.csv"
+<<<<<<< HEAD
 input="/home/liuqibao/workspace/research/chl_数据处理/F23/F2,3群体夏(田)SPAD处理.csv"
 #output file name
 #output="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_3std.txt"
 output="/home/liuqibao/workspace/research/chl_数据处理/F23/F23_3std.csv"
+=======
+input="/home/liuqibao/workspace/research/实验数据/光度值数据整理/浓度及变化汇总.csv"
+
+#output file name
+#output="/home/liuqibao/workspace/research/实验数据/SPAD数据整理/2016_2017_SPAD_汇总_3std.txt"
+output="/home/liuqibao/workspace/research/实验数据/光度值数据整理/浓度及变化汇总_3std.txt"
+>>>>>>> ce752dede0d945ae2e8e2c9a19902f899e223fdb
 
 # what fold of std to trim outlier
 fold=3

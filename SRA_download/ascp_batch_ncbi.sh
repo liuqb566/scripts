@@ -7,6 +7,10 @@
 #       2017-8-17 gossie releas 1
 
 cat $1 |while read id;do echo "/sra/sra-instant/reads/ByRun/sra/SRR/`echo $id|cut -c 1-6`/$id/$id.sra" >>SRR_download_list.txt;done
+<<<<<<< HEAD
 ~/ascp -QT -k 2 -L ./ -l 300m -i ~/asperaweb_id_dsa.openssh --mode recv --host ftp-private.ncbi.nlm.nih.gov --user anonftp --file-list  ./SRR_download_list.txt $2
+=======
+~/ascp -QT -k 2 -L ./ -l 300m -i ~/asperaweb_id_dsa.openssh --mode recv --host ftp-private.ncbi.nlm.nih.gov --user anonftp --file-list  ~/SRR_download_list.txt $2
+>>>>>>> ce752dede0d945ae2e8e2c9a19902f899e223fdb
 rm SRR_download_list.txt
 echo "Finsh! Please check the $2"

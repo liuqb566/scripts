@@ -9,6 +9,7 @@
 #   2017-12-26 v2 gossie
 #----------------------------------------------------------------------------------------------------------------------------------------------
 # 表型文件,与构建 .fam 文件时的表型顺序一致。
+<<<<<<< HEAD
 phe="/home/liuqibao/workspace/research/chl_数据处理/355材料/GWAS_355/gemma_based/re-sequencing/OD_含量_3st.txt"
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
@@ -17,12 +18,22 @@ phe="/home/liuqibao/workspace/research/chl_数据处理/355材料/GWAS_355/gemma
 #num=`ls *.assoc.txt|wc -l|cut -d ' ' -f1`
 # 不同linux版本 wc 命令显示的格式不同 
 num=`ls *.assoc.txt|wc -l`
+=======
+phe="/home/liuqibao/workspace/research/chl_数据处理/355材料/GWAS_355/浓度及变化汇总_3std.txt"
+#----------------------------------------------------------------------------------------------------------------------------------------------
+# 表型个数
+num=`ls *.assoc.txt|wc -l|cut -d ' ' -f1`
+>>>>>>> ce752dede0d945ae2e8e2c9a19902f899e223fdb
 
 for i in `seq 1 ${num}`
 do
 
+<<<<<<< HEAD
   col=$(($i+1))
   prefix=`head -n 1 ${phe} |cut -f$col`
+=======
+  prefix=`head -n 1 ${phe} |cut -f$[$i+1]`
+>>>>>>> ce752dede0d945ae2e8e2c9a19902f899e223fdb
   #提取前三列，分别为chr,snp,ps
   cut -f2 ${i}.assoc.txt|sed 1d >snp.txt
   cut -f2 ${i}.assoc.txt|sed 1d |tr ':' '\t'|paste snp.txt - >tmp.txt
